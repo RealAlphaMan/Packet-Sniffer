@@ -1,0 +1,151 @@
+
+
+***********************TCP Packet*************************
+
+IP Header
+ |-IP Version : 4
+ |-IP Header Length : 5 DWORDS or 20 Bytes
+ |-Type Of Service : 0
+ |-IP Total Length : 72 Bytes(Size of Packet)
+ |-Identification : 61179
+ |-Reserved ZERO Field : 0
+ |-Dont Fragment Field : 1
+ |-More Fragment Field : 0
+ |-TTL : 128
+ |-Protocol : 6
+ |-Checksum : 0
+ |-Source IP : 192.168.1.198
+ |-Destination IP : 31.13.75.1
+
+TCP Header
+ |-Source Port : 63921
+ |-Destination Port : 443
+ |-Sequence Number : 3698659912
+ |-Acknowledge Number : 485309718
+ |-Header Length : 5 DWORDS or 20 BYTES
+ |-CWR Flag : 0
+ |-ECN Flag : 0
+ |-Urgent Flag : 0
+ |-Acknowledgement Flag : 1
+ |-Push Flag : 1
+ |-Reset Flag : 0
+ |-Synchronise Flag : 0
+ |-Finish Flag : 0
+ |-Window : 256
+ |-Checksum : 11447
+ |-Urgent Pointer : 0
+
+ DATA Dump 
+IP Header
+ 45 00 00 48 ee fb 40 00 80 06 00 00 c0 a8 01 c6          E..H..@......... 
+ 1f 0d 4b 01                                              ..K. 
+
+TCP Header
+ f9 b1 01 bb dc 75 12 48 1c ed 3d 16 50 18 01 00          .....u.H..=.P... 
+ 2c b7 00 00                                              ,... 
+
+Data Payload
+ 17 03 03 00 1b ce 7a b6 96 15 87 a3 5a 43 66 cf          ......z.....ZCf. 
+ 8e 15 76 2b eb 4e a0 8d a6 11 0b d7 65 32 cf 0a          ..v+.N......e2.. 
+
+
+###########################################################
+
+***********************TCP Packet*************************
+
+IP Header
+ |-IP Version : 4
+ |-IP Header Length : 5 DWORDS or 20 Bytes
+ |-Type Of Service : 0
+ |-IP Total Length : 41 Bytes(Size of Packet)
+ |-Identification : 38906
+ |-Reserved ZERO Field : 0
+ |-Dont Fragment Field : 1
+ |-More Fragment Field : 0
+ |-TTL : 128
+ |-Protocol : 6
+ |-Checksum : 0
+ |-Source IP : 192.168.1.198
+ |-Destination IP : 108.177.97.188
+
+TCP Header
+ |-Source Port : 63916
+ |-Destination Port : 5228
+ |-Sequence Number : 253764474
+ |-Acknowledge Number : 185399761
+ |-Header Length : 5 DWORDS or 20 BYTES
+ |-CWR Flag : 0
+ |-ECN Flag : 0
+ |-Urgent Flag : 0
+ |-Acknowledgement Flag : 1
+ |-Push Flag : 0
+ |-Reset Flag : 0
+ |-Synchronise Flag : 0
+ |-Finish Flag : 0
+ |-Window : 254
+ |-Checksum : 37111
+ |-Urgent Pointer : 0
+
+ DATA Dump 
+IP Header
+ 45 00 00 29 97 fa 40 00 80 06 00 00 c0 a8 01 c6          E..)..@......... 
+ 6c b1 61 bc                                              l.a. 
+
+TCP Header
+ f9 ac 14 6c 0f 20 23 7a 0b 0c f9 d1 50 10 00 fe          ...l. #z....P... 
+ 90 f7 00 00                                              .... 
+
+Data Payload
+ 00                                                       . 
+
+
+###########################################################
+
+***********************TCP Packet*************************
+
+IP Header
+ |-IP Version : 4
+ |-IP Header Length : 5 DWORDS or 20 Bytes
+ |-Type Of Service : 0
+ |-IP Total Length : 40 Bytes(Size of Packet)
+ |-Identification : 61180
+ |-Reserved ZERO Field : 0
+ |-Dont Fragment Field : 1
+ |-More Fragment Field : 0
+ |-TTL : 128
+ |-Protocol : 6
+ |-Checksum : 0
+ |-Source IP : 192.168.1.198
+ |-Destination IP : 31.13.75.1
+
+TCP Header
+ |-Source Port : 63921
+ |-Destination Port : 443
+ |-Sequence Number : 3698659944
+ |-Acknowledge Number : 485309746
+ |-Header Length : 5 DWORDS or 20 BYTES
+ |-CWR Flag : 0
+ |-ECN Flag : 0
+ |-Urgent Flag : 0
+ |-Acknowledgement Flag : 1
+ |-Push Flag : 0
+ |-Reset Flag : 0
+ |-Synchronise Flag : 0
+ |-Finish Flag : 0
+ |-Window : 256
+ |-Checksum : 11415
+ |-Urgent Pointer : 0
+
+ DATA Dump 
+IP Header
+ 45 00 00 28 ee fc 40 00 80 06 00 00 c0 a8 01 c6          E..(..@......... 
+ 1f 0d 4b 01                                              ..K. 
+
+TCP Header
+ f9 b1 01 bb dc 75 12 68 1c ed 3d 32 50 10 01 00          .....u.h..=2P... 
+ 2c 97 00 00                                              ,... 
+
+Data Payload
+
+
+###########################################################
